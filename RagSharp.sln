@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagSharp", "RagSharp\RagSharp.csproj", "{30131999-115B-4A0F-8223-5E0C9D16C98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagSharpExample", "RagSharpExample\RagSharpExample.csproj", "{4190ECFA-293D-4BA3-89D2-521740CDF55F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30131999-115B-4A0F-8223-5E0C9D16C98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30131999-115B-4A0F-8223-5E0C9D16C98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30131999-115B-4A0F-8223-5E0C9D16C98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30131999-115B-4A0F-8223-5E0C9D16C98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4190ECFA-293D-4BA3-89D2-521740CDF55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4190ECFA-293D-4BA3-89D2-521740CDF55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4190ECFA-293D-4BA3-89D2-521740CDF55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4190ECFA-293D-4BA3-89D2-521740CDF55F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
