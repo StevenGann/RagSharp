@@ -48,7 +48,10 @@ namespace RagsharpExample
 
         static void Main()
         {
-            DiscordProvider discord = new DiscordProvider();
+            DiscordProvider discord = new DiscordProvider
+            {
+                Token = File.ReadAllText(@"..\..\discord-token.secret")
+            };
 
             discord.Setup();
 

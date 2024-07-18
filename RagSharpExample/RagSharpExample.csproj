@@ -8,15 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Centivus.EnglishStemmer">
-      <HintPath>.\Centivus.EnglishStemmer.dll</HintPath>
-    </Reference>
-    <Reference Include="HyperVectorDB">
-      <HintPath>.\HyperVectorDB.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\RagSharp\RagSharp.csproj" />
   </ItemGroup>
 

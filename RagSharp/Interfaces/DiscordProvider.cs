@@ -20,6 +20,8 @@ public class DiscordProvider : IInterfaceProvider
     private DiscordSocketClient _client = new();
     private List<InterfaceMessage> messages = new();
 
+    public string Token { get; set; }
+
     public InterfaceMessage[]? GetMessages()
     {
         throw new System.NotImplementedException();
@@ -61,7 +63,7 @@ public class DiscordProvider : IInterfaceProvider
     private async void DiscordLogin()
     {
         // Tokens should be considered secret data, and never hard-coded.
-        await _client.LoginAsync(TokenType.Bot, "TOKEN");
+        await _client.LoginAsync(TokenType.Bot, Token);
         // Different approaches to making your token a secret is by putting them in local .json, .yaml, .xml or .txt files, then reading them on startup.
 
         await _client.StartAsync();
